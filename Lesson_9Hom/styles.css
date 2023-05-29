@@ -1,12 +1,24 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
-    text-align: center;
-    width: 700px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    border: 2px solid red;
+    padding: 10px;
+    float: right;
+}
+
+.name p {
+    width: 300px;
 }
 
 h1 {
     font-style: italic;
+    width: 300px;
 }
 
 h1, h2, h3, th, p {
@@ -15,19 +27,19 @@ h1, h2, h3, th, p {
 
 h1, h2, h3, p {
     border-bottom: 2px solid red;
-    width: 700px;
 }
 
 h2, h3 {
     text-decoration: underline;
 }
 
-.img {
-    width: 250px;
-    height: 445px;
-    border: 2px solid red;
-    margin: 10px 225px 10px 225px;
-    padding: 10px;
+h3 {
+    text-align: right;
+    padding-right: 30px;
+}
+
+table {
+    width: 100%;
 }
 
 table, th, td {
@@ -59,6 +71,6 @@ a:hover {
 }
 
 ul {
-  list-style-type: square;
-  text-align: left;
+    margin-right: 10px;
+    float: right;
 }
