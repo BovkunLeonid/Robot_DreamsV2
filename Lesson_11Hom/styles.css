@@ -22,7 +22,7 @@ img {
 
     /* main */
 
-h1, .sidebar a  {
+h1, nav a {
     background: #424C55;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -35,10 +35,62 @@ h1, .sidebar a  {
     margin: 2px;
 }
 
-.sidebar {
+nav {
     display: flex;
     justify-content: space-around;
 }
- .sidebar a {
+main a {
     font-size: 36px;
- }
+    height: 55px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    background: #8895A0;
+}
+
+.metric {
+    width: 33%;
+    height: 447px;
+    background: url(img/Rectangle\ 1.jpg);
+    border-radius: 10px;
+}
+
+.brend {
+    width: 33%;
+    height: 447px;
+    background: url(img/Rectangle\ 2.png);
+    border-radius: 10px;
+}
+
+.suvenir {
+    width: 33%;
+    height: 447px;
+    background: url(img/Rectangle\ 3.png);
+    border-radius: 10px;
+}
+
+.metric a {
+    background: #424C55;
+    color: #F5EDF0;
+    border-radius: 10px;
+    width: 340px;
+    height: 65px;
+    font-weight: 400;
+    font-size: 36px;
+    position: relative;
+    top: 355px;
+}
+
+.brend a {
+    background: #424C55;
+    color: #F5EDF0;
+    border-radius: 10px;
+    width: 340px;
+    height: 65px;
+    font-weight: 400;
+    font-size: 36px;
+    position: relative;
+    top: 355px;
+}
