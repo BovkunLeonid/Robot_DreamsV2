@@ -1,3 +1,142 @@
 body {
-    background: red;
+    margin: 0;
+    font-family: 'Abril Fatface', cursive;
+}
+
+@font-face {
+    font-family: Beast;
+    src: url(fonts/Grisly\ Beast.otf);
+}
+
+@font-face {
+    font-family: Creepster;
+    src: url(fonts/Creepster-Regular.ttf);
+}
+
+@font-face {
+    font-family: Slant;
+    src: url(fonts/Balhemson\ Slant.otf);
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+header img {
+    height: 70px;
+    width: 70px;
+}
+
+.work-hours p {
+    margin: 10px 0;
+    width: 210px;
+}
+
+.work-adress p {
+    width: 210px;
+    line-height: 22px;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    margin: 0;
+    background: #00CC66;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0 15px;
+    height: 60px;
+    line-height: 60px;
+}
+
+nav a:hover {
+    background: #009926;
+}
+
+nav a:nth-child(2) {
+    margin: 0 120px;
+}
+
+main .main-img {
+    width: 100%;
+    height: 350px;
+    background-image: url(img/restaurant1.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* opacity: 0.6; */
+}
+
+main h1 {
+    font-family: Beast;
+    font-size: 40px;
+    margin-top: -200px;
+    margin-left: 10%;
+}
+
+main a {
+    background: black;
+    width: 240px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-left: 12%;
+}
+
+main a:hover {
+    background: #009926; 
+}
+
+.menu {
+    width: 100%;
+    margin: 120px 0; 
+}
+
+.menu h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.menu-conteiner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-conteiner h4 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.menu-conteiner div {
+    width: 33%;
+}
+.meal {
+    display: flex;
+    margin-bottom: 25px;
+    padding: 0 20px;
+}
+
+.meal img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.meal span {
+    font-size: 20px;
+    line-height: 60px;
 }
