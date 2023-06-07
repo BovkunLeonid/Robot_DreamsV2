@@ -1,5 +1,35 @@
-section {
-    width: 1024px;
-    margin: o auto;
-    background: red;
+.cont, .contact-form {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 1.2em;
+    font-weight: bold;
 }
+
+h2 {
+    text-align: center;
+}
+
+.cont span {
+    text-decoration: underline;
+}
+
+.cont p {
+    margin-top: 0;
+}
+
+.adress-map iframe {
+    border: 1px solid black !important;
+}
+
+.contact-form label {
+    display: block;
+}
+
+.contact-form input {
+    width: 300px;;
+}
+
+textarea {
+    width: 700px;
+}
+
