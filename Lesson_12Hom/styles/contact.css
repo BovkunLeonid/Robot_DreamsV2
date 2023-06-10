@@ -1,3 +1,7 @@
+.contact-form {
+    margin-bottom: 200px;
+}
+
 .cont, .contact-form {
     margin-top: 20px;
     margin-left: 30px;
@@ -26,10 +30,26 @@ h2 {
 }
 
 .contact-form input {
-    width: 300px;;
+    width: 300px;
 }
 
 textarea {
     width: 700px;
 }
 
+.contact-form input[type="submit"] {
+    display: block;
+    width: 170px;
+    height: 40px;
+    color: #F5EDF0;
+    background: #424C55;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 1.5em;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.contact-form input[type="submit"]:hover {
+    background: #424C55;
+    cursor: pointer;
+}
