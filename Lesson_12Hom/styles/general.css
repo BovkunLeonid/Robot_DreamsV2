@@ -1,0 +1,47 @@
+body {
+    width: 1024px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.cap p {
+    font-size: 1.5em;
+    line-height: 10px;
+    font-weight: bold;
+}
+
+.cap, nav, .services {
+    display: flex;
+    justify-content: space-between;
+}
+
+a::before, h1::before{
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+img {
+    margin-top: 12px;
+    width: 490px;
+    height: 90px;
+}
+
+h1, a {
+    background: #424C55;
+    color: #F5EDF0;
+    width: 100%;
+    height: 55px;
+    border-radius: 10px;
+    margin: 2px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    background: #8895A0;
+}
