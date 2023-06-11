@@ -1,0 +1,40 @@
+body {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+.wrap {
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+p {
+    font-weight: bold;
+}
+
+form {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    width: 30vw;
+    height: 50vh;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    margin: 20px;
+    width: 90px;
+    cursor: pointer;
+}
