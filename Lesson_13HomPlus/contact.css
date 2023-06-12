@@ -1,40 +1,127 @@
 body {
-    margin: 0 auto;
-    width: 1024px;
+    font-family: 'Libre Caslon Text', serif;
 }
 
 .wrap {
     text-align: center;
 }
 
+table {
+    margin: 15px auto;
+    width: 380px;
+}
+
 table, th, td {
     border: 1px solid black;
-    margin: 0 auto;
+}
+
+h1{
+    color: #353bb4;
+    margin: 10px auto;
 }
 
 p {
+    font-size: 1.5rem;
     font-weight: bold;
+    font-style: italic;
+    color: #353bb4;
+    margin: 5px auto;
 }
 
 form {
     position: absolute;
     top: 25%;
-    left: 35%;
-    width: 30vw;
+    left: 25%;
+    width: 50vw;
     height: 50vh;
 }
 
 fieldset {
-    display: flex;
-    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 0 10px #000;
+    border: none;
+    border-color: #fafafa;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+legend {
+    font-family: 'Libre Caslon Text', serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #353bb4;
+    text-shadow: 0px 1px 1px #555;
+}
+
+.lain {
+    margin-bottom: 10px;
+    position: relative;
 }
 
 label {
-    margin-top: 10px;
+    margin-top: 5px;
+}
+
+.icon-email {
+    background-image: url(icon-email.png);
+}
+
+.icon-message {
+    background-image: url(icon-message.png);
+}
+
+.icon-tag {
+    background-image: url(icon-tag.png);
+}
+
+.lain input, .lain textarea, .lain select {
+    font-family: inherit;
+    font-style: italic;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    background-color: #ffffff;
+}
+
+.lain textarea {
+    height: 140px;
+    resize: none;
+}
+
+.lain input:focus {
+    border-color: #35e941;
+}
+
+.lain label {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-left: 1px solid #e5e5e5;
+    right: 3px;
+    top: 0;
+}
+
+.icon {
+    display: inline-block;
+    
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 input[type="submit"] {
-    margin: 20px;
-    width: 90px;
+    font-family: 'Libre Caslon Text', serif;
+    font-weight: bold;
+    color: white;
+    background-color: #353bb4;
+    box-shadow: 8px 8px 8px #353bb4;
+    border-radius: 2px;
+    width: 140px;
+    height: 30px;
     cursor: pointer;
+    float: right;
 }
