@@ -1,5 +1,5 @@
 body {
-    width: 1024px;
+    width: var(--main-cont-width);
     margin: 0 auto;
     margin-top: 220px;
     font-family: 'Playfair Display', serif;
@@ -7,7 +7,7 @@ body {
 
 header {
     background: var(--header-bg-color);
-    width: 1024px;
+    width: var(--main-cont-width);
     position: fixed;
     top: 0;
     z-index: 10;
@@ -33,8 +33,8 @@ a::before, h1::before{
 
 .logo {
     margin-top: 12px;
-    width: 490px;
-    height: 90px;
+    width: var(--main-logo-width);
+    height: var(--main-logo-height);
 }
 
 h1, a {
@@ -42,7 +42,7 @@ h1, a {
     color: var(--main-text-color);
     width: 100%;
     height: 55px;
-    border-radius: 10px;
+    border-radius: var(--main-border-radius);
     margin: 2px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 2em;
@@ -70,15 +70,25 @@ a:hover {
     --main-bg-color: #424C55; 
     --main-hover-color: #8895A0;
     --h1-bg-color: #424C55;
-    --main-bg-color: white;
+    --h1-text-color: #F5EDF0;
+    --header-bg-color: white;
+    --main-cont-width: 1024px;
+    --main-border-radius: 10px;
+    --main-logo-width: 490px;
+    --main-logo-height: 90px;
+    --servis-blok-height: 55px;
+    --servis-blok-width: 260px;
+    --servis-position-top: 355px;
+    --form-margin-top: 10px;
+    --input-margin-bottom: 10px;
 }
 
-:root {
-    --main-text-color: #aac6d0;
-    --main-bg-color: #04548c;
-    --main-hover-color: #2281ee;
-    --h1-bg-color: black;
-    --h1-text-color: black;
-    --header-bg-color: black;
-}
+/* :root {
+    --main-text-color: #2f0d16;
+    --main-bg-color: #209dd8; 
+    --main-hover-color: #f8efc1;
+    --h1-bg-color: #f3eae8;
+    --h1-text-color: #123a5e;
+    --header-bg-color: #bbefce;
+} */
 
