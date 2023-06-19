@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="contact.css">
+        <title>Lesson 6 Hometask</title>
+    </head>
+    <body>
+        <div class="wrap">
+            <h1>Hire me</h1>
+            <p>Contact information</p>
+            <table>
+                <tr>
+                    <th>Phone</th>
+                    <td>+380633441736</td>
+                </tr>
+                <tr>
+                    <th>Address</th>
+                    <td>Somewhere in Ukraine</td>
+                </tr>
+            </table>
+        </div>
+        <form>
+            <fieldset>
+                <legend>Contact form</legend>
+                <div class="lain">
+                    <input type="email" name="email"  id="email" placeholder="email" required>
+                    <label for="email"><span class="icon icon-email"></span></label>
+                </div>
+                <div class="lain">
+                    <textarea name="content" id="description" placeholder="description"></textarea>
+                    <label for="description"><span class="icon icon-message"></span></label>
+                </div>
+                <div class="lain">
+                    <label for="Type"><span class="icon icon-tag"></span></label>
+                    <select name="list" id="Type">
+                        <option value="Work">Work offise</option>
+                        <option value="Full">Full-time</option>
+                        <option value="One">One-time project</option>
+                    </select>
+                </div>
+                <input type="submit" value="Hire me">
+                
+                
+            </fieldset>
+        </form>
+    </body>
+</html>
