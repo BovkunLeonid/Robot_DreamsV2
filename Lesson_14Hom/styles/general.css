@@ -65,13 +65,7 @@ a:hover {
         margin-bottom: 900px;
 }
 
-:root {
-    --main-text-color: #F5EDF0;
-    --main-bg-color: #424C55; 
-    --main-hover-color: #8895A0;
-    --h1-bg-color: #424C55;
-    --h1-text-color: #F5EDF0;
-    --header-bg-color: white;
+:root{
     --main-cont-width: 1024px;
     --main-border-radius: 10px;
     --main-logo-width: 490px;
@@ -82,13 +76,4 @@ a:hover {
     --form-margin-top: 10px;
     --input-margin-bottom: 10px;
 }
-
-/* :root {
-    --main-text-color: #2f0d16;
-    --main-bg-color: #209dd8; 
-    --main-hover-color: #f8efc1;
-    --h1-bg-color: #f3eae8;
-    --h1-text-color: #123a5e;
-    --header-bg-color: #bbefce;
-} */
 
