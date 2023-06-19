@@ -1,13 +1,13 @@
 body {
-    width: var(--main-cont-width);
+    width: 1024px;
     margin: 0 auto;
     margin-top: 220px;
     font-family: 'Playfair Display', serif;
 }
 
 header {
-    background: var(--header-bg-color);
-    width: var(--main-cont-width);
+    background: white;
+    width: 1024px;
     position: fixed;
     top: 0;
     z-index: 10;
@@ -33,16 +33,16 @@ a::before, h1::before{
 
 .logo {
     margin-top: 12px;
-    width: var(--main-logo-width);
-    height: var(--main-logo-height);
+    width: 490px;
+    height: 90px;
 }
 
 h1, a {
-    background: var(--main-bg-color);
-    color: var(--main-text-color);
+    background: #424C55;
+    color: #F5EDF0;
     width: 100%;
     height: 55px;
-    border-radius: var(--main-border-radius);
+    border-radius: 10px;
     margin: 2px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 2em;
@@ -51,29 +51,11 @@ h1, a {
     text-decoration: none;
 }
 
-h1 {
-    background: var(--h1-bg-color);
-    color: var(--h1-text-color);
-}
-
 a:hover {
-    background: var(--main-hover-color);
+    background: #8895A0;
 }
 
 .services {
         /* Для візуалізаціїї скрола */
         margin-bottom: 900px;
 }
-
-:root{
-    --main-cont-width: 1024px;
-    --main-border-radius: 10px;
-    --main-logo-width: 490px;
-    --main-logo-height: 90px;
-    --servis-blok-height: 55px;
-    --servis-blok-width: 260px;
-    --servis-position-top: 355px;
-    --form-margin-top: 10px;
-    --input-margin-bottom: 10px;
-}
-

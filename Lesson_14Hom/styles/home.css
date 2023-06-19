@@ -1,13 +1,13 @@
 .services div a {
-    width: var(--servis-blok-width);
-    height: var(--servis-blok-height);
+    width: 260px;
+    height: 55px;
     font-size: 2em;
     font-weight: 400;
     text-align: left;
     padding: 10px 0 0 10px;
     display: inline-block; 
     position: relative;
-    top: var(--servis-position-top);
+    top: 355px;
     text-align: left;
 }
 
