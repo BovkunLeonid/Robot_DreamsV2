@@ -23,6 +23,8 @@ h2 {
 
 .adress-map iframe {
     border: 1px solid black !important;
+    width: 700px;
+    height: 300px;
 }
 
 .contact-form label {
@@ -57,4 +59,10 @@ textarea {
 .contact-form input[type="submit"]:hover {
     background: var(--main-hover-color);
     cursor: pointer;
+}
+
+@media screen and (max-width: 610px){
+    textarea, .adress-map iframe {
+        width: 400px;
+    }
 }
