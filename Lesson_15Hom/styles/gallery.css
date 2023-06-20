@@ -15,3 +15,20 @@ main img:hover {
     transition: all 1s linear;
 }
 
+@media screen and (max-width: 899px){
+    main {
+        height: 2800px;
+    }
+}
+
+@media screen and (max-width: 610px){
+    main {
+        height: 5000px;
+    }
+}
+
+@media screen and (max-width: 610px){
+    main img {
+        width: 100%;
+    }
+}
