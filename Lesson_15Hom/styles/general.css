@@ -63,17 +63,18 @@ a:hover {
 .button {
     width: 60px;
     height: 70px;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: var(--main-bg-color);
     display: none;
-    padding-left: 10px;
+    padding-left: 11px;
 }
 
 .button span{
     display: inline-block;
-    width: 50px;
-    height: 3px;
+    width: 48px;
+    height: 4px;
     background-color: white;
+    border-radius: 2px;
 }
 
 div h1:nth-child(2) {
@@ -106,6 +107,13 @@ div h1:nth-child(2) {
 }
 
 @media screen and (max-width: 899px){
+    div h1:nth-child(2) {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 899px){
     :root{
         --main-logo-width: 270px;
         --main-logo-height: 50px;
@@ -124,15 +132,21 @@ div h1:nth-child(2) {
 }
 
 @media screen and (max-width: 610px){
-    .telephone, .nav>h1:last-child {
+    .telephone {
         display: inline-block;
         margin-left: 20%;
     }
 }
 
 @media screen and (max-width: 610px){
-    .nav, .kod{
+    .nav a, .kod{
         display: none;
+    }
+}
+
+@media screen and (max-width: 610px){
+    body{
+        margin-top: 210px;
     }
 }
 
