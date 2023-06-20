@@ -77,3 +77,23 @@ a:hover {
     --input-margin-bottom: 10px;
 }
 
+@media screen and (max-width: 899px){
+    .adress, .telephone{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 899px){
+    :root, .logo{
+        --main-logo-width: 270px;
+        --main-logo-height: 50px;
+        margin-left: 20px;
+        
+    }
+}
+
+@media screen and (max-width: 899px){
+    body{
+        margin-top: 180px;
+    }
+}
